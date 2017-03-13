@@ -1,0 +1,287 @@
+<!doctype html>
+<html dir="rtl" lang="he">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>מחולל צוות תוכן</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+		<div id="header">
+			<div id="header-content">
+				<div id="header-title">מחולל צוות תוכן</div>
+				<div id="header-subtext">
+					ברוכים הבאים למחולל החדש של צוות תוכן!<br>
+					כל מה שתצטרכו זה למלא את הפרטים למטה,<br>
+					והכלי ידאג לספק לכם קוד אותו תדביקו<br>
+					באשכול החדש שאתם יוצרים! שנתחיל?
+				</div>
+			</div>
+    	</div>
+
+        <div id="wrapper">
+    		<span class="title">בחרו מחלקה:</span>
+
+    		<div id="dept-select">
+    			<img src="images/dept-tech.png" alt="מחקת טכנולוגיה" id="dept-tech" class="selectable">
+    			<img src="images/dept-gaming.png" alt="מחלקת גיימינג" id="dept-gaming" class="selectable">
+    		</div>
+
+    		<div id="details">
+    			<span class="title">מלאו את הפרטים:</span>
+    			<div id="form">
+					<input type="text" id="title" placeholder="כותרת" autofocus>
+
+    				<input type="text" id="img-address" placeholder="כתובת תמונה" style="width: 45%">
+
+    				<input type="text" id="img-desc" placeholder="תיאור תמונה" style="width: 45%">
+
+					<input type="text" id="temp-select" value="אנא בחרו מחלקה" disabled style="background: #c1c1c1; border-color: #9f9f9f;">
+
+    				<select id="select-tech">
+						<optgroup label="מחשבים ואינטרנט">
+							<option value="5073">עדכוני מחשבים וחומרה</option>
+							<option value="4475">eBay וקניות ברשת</option>
+							<option value="16">תמיכה טכנית - מחשבים</option>
+							<option value="1250">עולם התוכנה</option>
+							<option value="402">WhatsApp ומסרים מידיים</option>
+							<option value="214">תמיכה בתוכנות</option>
+							<option value="757">תוכנות שיתוף</option>
+							<option value="45">תוכנות להורדה</option>
+							<option value="464">בקשת תוכנות</option>
+							<option value="1310">סחר אלקטרוני</option>
+							<option value="17">מדריכים - מחשבים</option>
+							<option value="438">דרייברים</option>
+							<option value="27">אבטחת מידע</option>
+							<option value="160">רקעים למחשב</option>
+							<option value="940">Linux</option>
+						</optgroup>
+						<optgroup label="מולטימדיה">
+							<option value="4607">עדכוני מולטימדיה</option>
+							<option value="4803">מולטימדיה - כללי</option>
+							<option value="6417">מכשירי Windows</option>
+							<option value="8490">מצלמות אקסטרים</option>
+							<option value="8491">מציאות מדומה</option>
+							<option value="128">סלולרי</option>
+							<option value="713">גאדג'טים</option>
+							<option value="4336">אביזרים ועזרים</option>
+							<option value="696">נגני מולטימדיה ואוזניות</option>
+							<option value="3842">ייעוץ ברכישת מכשיר</option>
+							<option value="163">טלוויזיות ומקרנים</option>
+							<option value="2448">קנייה ומכירה - מולטימדיה</option>
+						</optgroup>
+						<optgroup label="אנדרואיד">
+							<option value="4603">עדכוני אנדרואיד</option>
+							<option value="2716">אנדרואיד - כללי</option>
+							<option value="2982">אפליקציות - אנדרואיד</option>
+							<option value="3844">רומים ותכנות</option>
+							<option value="3847">מכשירי Samsung</option>
+							<option value="5060">מכשירי LG</option>
+							<option value="3846">מכשירי HTC</option>
+							<option value="8242">מכשירים סיניים</option>
+							<option value="4296">מכשירי Sony</option>
+							<option value="3848">Android Tablets</option>
+							<option value="3849">קנייה ומכירה - אנדרואיד</option>
+						</optgroup>
+						<optgroup label="Apple">
+							<option value="4602">עדכוני Apple</option>
+							<option value="4796">Apple - כללי</option>
+							<option value="3850">Mac</option>
+							<option value="1058">iTouch/iPhone</option>
+							<option value="8327">Apple TV</option>
+							<option value="7671">Apple Watch</option>
+							<option value="4546">iTunes - iCloud</option>
+							<option value="2946">iPad</option>
+							<option value="3622">JailBreak/Cydia</option>
+							<option value="1420">אפליקציות - Apple</option>
+							<option value="3852">תמיכה טכנית - Apple</option>
+							<option value="3853">קנייה ומכירה - Apple</option>
+						</optgroup>
+						<optgroup label="חומרה">
+							<option value="218">חומרה כללי ומודינג</option>
+							<option value="2114">תמיכה טכנית בחומרה</option>
+							<option value="1535">מעבדים ולוחות אם</option>
+							<option value="1305">כרטיסי מסך</option>
+							<option value="1381">מארזים וספקי כוח</option>
+							<option value="559">OC וקירור</option>
+							<option value="585">מחשבים ניידים</option>
+							<option value="465">מפרטי מחשב</option>
+							<option value="393">ציוד היקפי</option>
+							<option value="506">רשתות ואינטרנט</option>
+							<option value="8911">Setup</option>
+							<option value="2450">קנייה ומכירה - חומרה</option>
+						</optgroup>
+    				</select>
+
+    				<select id="select-gaming">
+						<optgroup label="משחקים">
+							<option value="5071">עדכוני גיימינג</option>
+							<option value="236">Gamer</option>
+							<option value="5378">Multiplayer PC</option>
+							<option value="2427">משחקי נוסטלגיה</option>
+							<option value="7921">Rocket League</option>
+							<option value="8681">חנויות דיגיטליות</option>
+							<option value="100">משחקים להחלפה - PC</option>
+							<option value="8171">NBA 2K</option>
+							<option value="143">תמיכה טכנית - משחקים</option>
+							<option value="296">בקשת משחקים</option>
+							<option value="353">משחקי ספורט ומרוצים</option>
+							<option value="1801">Steam</option>
+							<option value="3708">Fifa</option>
+							<option value="6407">DayZ</option>
+							<option value="571">Football Manager</option>
+							<option value="7660">H1Z1</option>
+							<option value="8682">קנייה ומכירה - משחקים</option>
+						</optgroup>
+						<optgroup label="משחקי פעולה">
+							<option value="435">פעולה - כללי</option>
+							<option value="8170">Rainbow Six Siege</option>
+							<option value="8475">The Division</option>
+							<option value="8668">Destiny</option>
+							<option value="7792">Warface</option>
+							<option value="6182">Watch Dogs</option>
+							<option value="3536">MicroVolts</option>
+							<option value="3415">APB:Reloaded</option>
+							<option value="370">Rakion</option>
+							<option value="1974">Assassin's Creed</option>
+							<option value="1141">Combat Arms</option>
+							<option value="5315">FarCry</option>
+							<option value="1667">A.V.A</option>
+							<option value="639">Team Fortress</option>
+							<option value="217">WarRock</option>
+							<option value="6435">TitanFall</option>
+							<option value="305">Call of Duty</option>
+							<option value="523">Battlefield</option>
+						</optgroup>
+						<optgroup label="משחקי תפקידים">
+							<option value="7659">Mu Classic</option>
+							<option value="8891">WoW Israel Online - בחינם!</option>
+							<option value="436">תפקידים - כללי</option>
+							<option value="2766">League of Legends</option>
+							<option value="8719">Overwatch</option>
+							<option value="7470">Dragon Ball Xenoverse</option>
+							<option value="9092">Paladins</option>
+							<option value="7391">The Witcher</option>
+							<option value="8110">Fallout</option>
+							<option value="8476">Blade and Soul</option>
+							<option value="3773">The Elder Scrolls</option>
+							<option value="243">World of Warcraft</option>
+							<option value="4625">Guild Wars</option>
+							<option value="75">Mu Online</option>
+							<option value="6314">TERA</option>
+							<option value="151">RuneScape</option>
+							<option value="142">Silkroad Online</option>
+						</optgroup>
+						<optgroup label="משחקי אסטרטגיה">
+							<option value="8761">FxpCraft</option>
+							<option value="354">אסטרטגיה - כללי</option>
+							<option value="4781">ArmA</option>
+							<option value="6509">Rust</option>
+							<option value="5116">Smite</option>
+							<option value="4109">Dota</option>
+							<option value="6379">Hearthstone</option>
+							<option value="2731">Minecraft</option>
+							<option value="4014">Tycoon Games</option>
+							<option value="6336">Civilization</option>
+							<option value="7874">ARK: Survival Evolved</option>
+							<option value="501">The Sims</option>
+							<option value="547">Total War</option>
+						</optgroup>
+						<optgroup label="משחקי פלאש ודפדפן">
+							<option value="80">משחקי פלאש ודפדפן - כללי</option>
+							<option value="1553">משחקי פייסבוק</option>
+							<option value="8884">Pokemon Go</option>
+							<option value="5825">Clash of Clans</option>
+							<option value="8571">Clash Royale</option>
+							<option value="8886">Bloons TD Battles</option>
+							<option value="8885">Hay Day</option>
+							<option value="8210">Boom Beach</option>
+							<option value="8295">משחקי IO</option>
+							<option value="4506">Transformice</option>
+							<option value="3421">Tanki Online</option>
+							<option value="3483">HaxBall</option>
+							<option value="3482">Top Eleven</option>
+							<option value="842">Ikariam</option>
+						</optgroup>
+						<optgroup label="GTA">
+							<option value="3839">GTA - כללי</option>
+							<option value="5130">GTA V</option>
+							<option value="1122">GTA IV</option>
+							<option value="378">FXP DeathMatch</option>
+							<option value="2467">מדיה וסקינים כללי</option>
+							<option value="762">Pawn Scripting</option>
+							<option value="3840">MTA ואובייקטים</option>
+						</optgroup>
+						<optgroup label="Counter Strike">
+							<option value="4787">Global Offensive</option>
+							<option value="63">Counter-Strike - כללי</option>
+							<option value="4652">Counter-Strike - פרוץ</option>
+							<option value="3865">תכנות ומודים</option>
+							<option value="1100">קונפיגים והתאמה אישית</option>
+							<option value="2080">מדיה וסרטונים - CS</option>
+							<option value="640">פרסום שרתים - CS</option>
+						</optgroup>
+						<optgroup label="קונסולות">
+							<option value="2394">קונסולות - כללי</option>
+							<option value="2930">Multiplayer - קונסולות</option>
+							<option value="6629">Nintendo</option>
+							<option value="4281">PlayStation Vita</option>
+							<option value="944">PlayStation 3</option>
+							<option value="5895">PlayStation 4</option>
+							<option value="946">Xbox 360</option>
+							<option value="5906">Xbox One</option>
+							<option value="2546">קנייה ומכירה - קונסולות</option>
+						</optgroup>
+    				</select>
+
+					<textarea id="content" placeholder="תוכן" style="height: 200px"></textarea>
+
+					<input type="text" id="relevant-link" placeholder="קישור רלוונטי" style="width: 45%">
+    				<input type="text" id="relevant-link-desc" placeholder="תיאור קישור רלוונטי" style="width: 45%">
+
+    				<input type="text" id="link-1" placeholder="קישור נוסף #1" style="width: 45%;">
+    				<input type="text" id="link-1-desc" placeholder="תיאור קישור נוסף #1" style="width: 45%">
+
+    				<input type="text" id="link-2" placeholder="קישור נוסף #2" style="width: 45%;">
+    				<input type="text" id="link-2-desc" placeholder="תיאור קישור נוסף #2" style="width: 45%">
+
+    				<input type="text" id="link-3" placeholder="קישור נוסף #3" style="width: 45%;">
+    				<input type="text" id="link-3-desc" placeholder="תיאור קישור נוסף #3" style="width: 45%">
+
+    				<input type="text" id="link-4" placeholder="קישור נוסף #4" style="width: 45%;">
+    				<input type="text" id="link-4-desc" placeholder="תיאור קישור נוסף #4" style="width: 45%">
+
+    				<input type="text" id="link-5" placeholder="קישור נוסף #5" style="width: 45%;">
+    				<input type="text" id="link-5-desc" placeholder="תיאור קישור נוסף #5" style="width: 45%">
+
+    				<button type="button" id="submit-button">יצירת כתבה</button>
+    			</div>
+
+    			<div id="final-article">
+    				<div class="title">קוד הכתבה:</div>
+    				<div id="final-article-copy" class="popup">
+    					<div class="popuptext" id="copy-popup">הכתבה הועתקה בהצלחה</div>
+    					לחצו כאן על מנת להעתיק את הכתבה!
+    				</div>
+    				<textarea dir="ltr" id="final-article-textarea">קוד הכתבה יופיע כאן...</textarea>
+    				<p>את הקוד הנ"ל תצטרכו להדביק בתוכן של האשכול החדש אותו אתם פותחים.</p>
+    			</div>
+    		</div>
+        </div>
+
+		<div id="footer">
+			נבנה ב <span style="color: #ed3030">❤</span> על ידי <a href="https://www.fxp.co.il/member.php?u=216362">Star Chaser</a>.
+		</div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

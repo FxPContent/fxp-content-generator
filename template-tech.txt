@@ -1,0 +1,24 @@
+[CENTER][U][COLOR=#008b8b][B][SIZE=5][FONT=almoni-dl]%ArticleTitle%[/FONT]
+[/SIZE][/B][/COLOR][/U]
+%ImageLink%
+[FONT=tahoma][B][SIZE=1]%ImageLinkDesc%[/SIZE][/B][/FONT]
+
+[FONT=tahoma]%Content%
+[/FONT]
+[COLOR=#333333][FONT=arial][SIZE=1][COLOR=#a9a9a9][B]%RelevantLinkDesc%
+[/B][/COLOR][/SIZE][/FONT][/COLOR][FONT=arial][SIZE=1][B][URL="%RelevantLink%"][COLOR=#a9a9a9]%RelevantLink%[/COLOR][/URL][/B][/SIZE][/FONT][COLOR=#333333][FONT=arial]
+[/FONT][/COLOR][COLOR=#008b8b][RIGHT][FONT=arial][CENTER][IMG]https://i.imgur.com/BP1U0yb.png[/IMG]
+[B]יש לכם שאלות? רוצים לדעת עוד? בואו לפורום
+[/B][URL="https://www.fxp.co.il/forumdisplay.php?f=%ForumID%"][COLOR=#008b8b][B][SIZE=3]%ForumName%[/SIZE][/B][/COLOR][/URL][/CENTER]
+[/FONT][/RIGHT]
+[/COLOR][COLOR=#333333][FONT=arial]
+[COLOR=#008b8b][FONT=Arial][FONT=tahoma][SIZE=3][FONT=arial][B]אולי יעניין אותך גם:[/B][/FONT][/SIZE][/FONT][/FONT][/COLOR]
+[/FONT][/COLOR][COLOR=#0000cd][FONT=arial][B][URL="%AdditionalLink1%"][COLOR=#0000cd]%AdditionalLink1Desc%[/COLOR][/URL]
+[URL="%AdditionalLink2%"][COLOR=#0000cd]%AdditionalLink2Desc%[/COLOR][/URL]
+[URL="%AdditionalLink3%"][COLOR=#0000cd]%AdditionalLink3Desc%[/COLOR][/URL]
+[URL="%AdditionalLink4%"][COLOR=#0000cd]%AdditionalLink4Desc%[/COLOR][/URL]
+[URL="%AdditionalLink5%"][COLOR=#0000cd]%AdditionalLink5Desc%[/COLOR][/URL]
+[/B][/FONT][/COLOR][IMG]https://i.imgur.com/BP1U0yb.png[/IMG]
+[COLOR=#333333][FONT=arial][IMG]https://i.imgur.com/MmTQzif.png[/IMG]
+[SIZE=1][FONT=tahoma][B][URL="https://www.fxp.co.il/showthread.php?t=726358&p=101038695#post101038695"][COLOR=#33CCFF]תודה למחלקת הגהה על הגהת הכתבה[/COLOR][/URL][/B][/FONT][/SIZE]
+[B][SIZE=1][FONT=tahoma][U][URL="https://www.fxp.co.il/private.php?do=newpm&u=196201"]מצאתם טעות בכתבה? ספרו לנו ונתקן בהקדם[/URL][/U][/FONT][/SIZE][/B][/FONT][/COLOR][/CENTER]
