@@ -94,6 +94,9 @@ function generateArticle(data) {
 	var link5 = $("#link-5").val();
 	var link5Desc = $("#link-5-desc").val();
 
+	// Remove empty lines from content
+	content = content.replace(/^(?=\n)$|^\s*|\s*$|\n\n+/gm, "");
+
 	// Replace template with input values
 	var newData = data.replace('%ArticleTitle%', title)
 					  .replace('%ImageLink%', imgAddress)

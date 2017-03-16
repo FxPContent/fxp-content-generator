@@ -5,7 +5,6 @@
 [B][FONT=tahoma][COLOR=#333333][SIZE=1]%ImageLinkDesc%[/SIZE][/COLOR][/FONT][/B]
 
 [FONT=tahoma]%Content%[/FONT][B][FONT=tahoma][COLOR=#333333][SIZE=1]
-
 [/SIZE][/COLOR][/FONT][/B][COLOR=#A9A9A9][SIZE=1][FONT=arial][B]%RelevantLinkDesc%
 [/B][/FONT][/SIZE][/COLOR][U][B][SIZE=1][URL="%RelevantLink%"][COLOR=#999999]%RelevantLink%[/COLOR][/URL][/SIZE][/B][/U]
 [IMG]https://i.imgur.com/BP1U0yb.png[/IMG]

@@ -3,8 +3,7 @@
 %ImageLink%
 [FONT=tahoma][B][SIZE=1]%ImageLinkDesc%[/SIZE][/B][/FONT]
 
-[FONT=tahoma]%Content%
-[/FONT]
+[FONT=tahoma]%Content%[/FONT]
 [COLOR=#333333][FONT=arial][SIZE=1][COLOR=#a9a9a9][B]%RelevantLinkDesc%
 [/B][/COLOR][/SIZE][/FONT][/COLOR][FONT=arial][SIZE=1][B][URL="%RelevantLink%"][COLOR=#a9a9a9]%RelevantLink%[/COLOR][/URL][/B][/SIZE][/FONT][COLOR=#333333][FONT=arial]
 [/FONT][/COLOR][COLOR=#008b8b][RIGHT][FONT=arial][CENTER][IMG]https://i.imgur.com/BP1U0yb.png[/IMG]
