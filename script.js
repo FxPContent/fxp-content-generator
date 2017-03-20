@@ -1,5 +1,10 @@
 var currentDept = 0;
 
+// Unload warning
+window.onbeforeunload = function() {
+  return "כל הנתונים ייאבדו. האם ברצונץ להמשיך?";
+};
+
 $(document).ready(function() {
 	// Hide elements
 	$("#select-tech").hide();
