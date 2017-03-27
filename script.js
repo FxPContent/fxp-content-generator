@@ -88,6 +88,7 @@ function generateArticle(data) {
 	var content = $("#content").val();
 	var relevantLink = $("#relevant-link").val();
 	var relevantLinkDesc = $("#relevant-link-desc").val();
+	var source = $("#source").val();
 	var link1 = $("#link-1").val();
 	var link1Desc = $("#link-1-desc").val();
 	var link2 = $("#link-2").val();
@@ -110,6 +111,7 @@ function generateArticle(data) {
 					  .replace('%RelevantLink%', relevantLink)
 					  .replace('%RelevantLink%', relevantLink)
 					  .replace('%RelevantLinkDesc%', relevantLinkDesc)
+					  .replace('%Source%', source)
 					  .replace('%ForumID%', forumID)
 					  .replace('%ForumName%', forumName)
 					  .replace('%AdditionalLink1%', link1)

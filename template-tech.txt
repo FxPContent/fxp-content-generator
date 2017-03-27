@@ -5,8 +5,10 @@
 
 [FONT=tahoma]%Content%[/FONT]
 [COLOR=#333333][FONT=arial][SIZE=1][COLOR=#a9a9a9][B]%RelevantLinkDesc%
-[/B][/COLOR][/SIZE][/FONT][/COLOR][FONT=arial][SIZE=1][B][URL="%RelevantLink%"][COLOR=#a9a9a9]%RelevantLink%[/COLOR][/URL][/B][/SIZE][/FONT][COLOR=#333333][FONT=arial]
-[/FONT][/COLOR][COLOR=#008b8b][RIGHT][FONT=arial][CENTER][IMG]https://i.imgur.com/BP1U0yb.png[/IMG]
+[/B][/COLOR][/SIZE][/FONT][/COLOR][FONT=arial][SIZE=1][B][URL="%RelevantLink%"][COLOR=#a9a9a9]%RelevantLink%[/COLOR][/URL][/B][/SIZE][/FONT]
+
+[FONT=arial][SIZE=1][B][URL="%Source%"][COLOR=#a9a9a9]מקור[/COLOR][/URL][/B][/SIZE][/FONT]
+[COLOR=#008b8b][RIGHT][FONT=arial][CENTER][IMG]https://i.imgur.com/BP1U0yb.png[/IMG]
 [B]יש לכם שאלות? רוצים לדעת עוד? בואו לפורום
 [/B][URL="https://www.fxp.co.il/forumdisplay.php?f=%ForumID%"][COLOR=#008b8b][B][SIZE=3]%ForumName%[/SIZE][/B][/COLOR][/URL][/CENTER]
 [/FONT][/RIGHT]

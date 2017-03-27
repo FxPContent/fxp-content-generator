@@ -7,6 +7,8 @@
 [FONT=tahoma]%Content%[/FONT][B][FONT=tahoma][COLOR=#333333][SIZE=1]
 [/SIZE][/COLOR][/FONT][/B][COLOR=#A9A9A9][SIZE=1][FONT=arial][B]%RelevantLinkDesc%
 [/B][/FONT][/SIZE][/COLOR][U][B][SIZE=1][URL="%RelevantLink%"][COLOR=#999999]%RelevantLink%[/COLOR][/URL][/SIZE][/B][/U]
+
+[FONT=arial][SIZE=1][B][URL="%Source%"][COLOR=#a9a9a9]מקור[/COLOR][/URL][/B][/SIZE][/FONT]
 [IMG]https://i.imgur.com/BP1U0yb.png[/IMG]
 [FONT=arial][B][COLOR=#daa520]יש לכם שאלות? רוצים לדעת עוד? בואו לפורום
 [/COLOR][URL="https://www.fxp.co.il/forumdisplay.php?f=%ForumID%"][SIZE=3][COLOR=#daa520]%ForumName%[/COLOR][/SIZE][/URL][I][B][SIZE=6][COLOR=#daa520]
