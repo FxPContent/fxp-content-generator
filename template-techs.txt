@@ -1,4 +1,4 @@
-[CENTER][U][COLOR=#008b8b][B][SIZE=5][FONT=almoni-dl]%ArticleTitle%[/FONT]
+﻿[CENTER][U][COLOR=#008b8b][B][SIZE=5][FONT=almoni-dl]%ArticleTitle%[/FONT]
 [/SIZE][/B][/COLOR][/U]
 %ImageLink%
 [FONT=tahoma][B][SIZE=1]%ImageLinkDesc%[/SIZE][/B][/FONT]
@@ -20,6 +20,6 @@
 [URL="%AdditionalLink4%"][COLOR=#0000cd]%AdditionalLink4Desc%[/COLOR][/URL]
 [URL="%AdditionalLink5%"][COLOR=#0000cd]%AdditionalLink5Desc%[/COLOR][/URL]
 [/B][/FONT][/COLOR][IMG]https://i.imgur.com/BP1U0yb.png[/IMG]
-[COLOR=#333333][FONT=arial][IMG]https://i.imgur.com/MmTQzif.png[/IMG]
+[COLOR=#333333][FONT=arial][URL="https://www.fxp.co.il/showthread.php?t=726358&p=101038695#post101038695"][IMG]https://i.imgur.com/MmTQzif.png[/IMG][/URL]
 [SIZE=1][FONT=tahoma][B][URL="https://www.fxp.co.il/showthread.php?t=726358&p=101038695#post101038695"][COLOR=#33CCFF]תודה למחלקת הגהה על הגהת הכתבה[/COLOR][/URL][/B][/FONT][/SIZE]
 [B][SIZE=1][FONT=tahoma][U][URL="https://www.fxp.co.il/private.php?do=newpm&u=196201"]מצאתם טעות בכתבה? ספרו לנו ונתקן בהקדם[/URL][/U][/FONT][/SIZE][/B][/FONT][/COLOR][/CENTER]

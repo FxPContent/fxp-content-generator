@@ -38,10 +38,10 @@ $(document).ready(function() {
 
 		if (currentDept == 1) {
 			// Technology department
-			$.get('template-tech.txt', generateArticle, "text");
+			$.get('template-techs.txt', generateArticle, "text");
 		} else if (currentDept == 2) {
 			// Gaming department
-			$.get('template-gaming.txt',generateArticle, "text");
+			$.get('template-gaming.txt', generateArticle, "text");
 		} else {
 			alert("אנא בחר מחלקה.");
 			$("#final-article").hide();
